@@ -1,0 +1,16 @@
+{
+    "name": "AdHop",
+    "version": "1.0",
+    "description": "Ad Remover by h1m4n3hu",
+    "manifest_version": 2,
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "browser_action":{
+        "default_icon":"logo.png"
+    },
+    "background": {
+        "scripts": ["pin.js"]
+    },
+    "icons": {
+        "128": "logo.png"
+    }
+}
